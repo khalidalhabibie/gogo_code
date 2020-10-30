@@ -1,8 +1,16 @@
-#simple APi to  manage books
+# simple APi to  manage books with GO
 
+## get mux
+``` bash
+go get -u github.com/gorilla/mux
+```
+## how to run
+```bash
+go build simpleRestAPIusingmux.go 
+./simpleRestAPIusingmux 
+```
 
-
-#API :
+## API :
 
 ```bash
 Request : get all book
