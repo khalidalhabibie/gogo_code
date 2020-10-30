@@ -4,22 +4,22 @@
 
 #API :
 
-'''bash
+```bash
 Request : get all book
 Methode : GET
 Url     : http://localhost:8000/api/books
-'''
-'''bash
+```
+```bash
 Request : get a book
 Method  : GET
 Url     : http://localhost:8000/api/books/{id}
-'''
-'''bash
+```
+```bash
 Request : get a book
 Method  : GET
 Url     : http://localhost:8000/api/books/{id}
-'''
-'''bash
+```
+```bash
 Request : create a book
 Method  : POST
 Url     : http://localhost:8000/api/book
@@ -29,9 +29,9 @@ example body :
    "title":"tiga teman",
    "author":{"firstname":"Untung",  "lastname":"Saja"}
 }
-'''
+```
 
-'''bash
+```bash
 Request : update a book
 Method  : PUT
 Url     : http://localhost:8000/api/books/{id}
@@ -41,10 +41,10 @@ example body :
    "title":"empat teman",
    "author":{"firstname":"Untung",  "lastname":"Saja"}
 }
-'''
-'''bash
+```
+```bash
 Request : delete a book
 Method  : DELETE
 Url     : http://localhost:8000/api/books/{id}
-'''
+```
 
